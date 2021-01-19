@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!-- Cassie Williams 5/13/2019 -->
+<html lang="en">
+	<head>
+		<title>Solid :: Get a POD</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="final.css" rel="stylesheet">
+        <link rel="stylesheet" href="print.css" media="print">
+        <style>
+            .box { padding: 0; 
+                margin-left: 0;
+                margin-bottom: 0
+            }
+            form { 
+                font-family: Arial, sans-serif; 
+                padding: 2em 2em 2em 1em;
+                margin-bottom: 3em;
+                margin-left: 3em;
+            }
+            h3 { margin-left: 6em;}
+
+            input[type="submit"], input[type="reset"] { margin-left: 2em; 
+            }
+            input { margin-left: 11em;
+                border: 1px solid black; }
+
+            .input { display: block;
+                margin-bottom: 2em;
+            }
+            label { float: left;
+                display: block;
+                text-align: right;
+            }
+            #myDate { margin-left: 11em;
+                margin-top: 2em;
+                display: block;
+            }
+            select { float: left; 
+                margin-left: 11em;
+            }
+            textarea { margin-bottom: 2em;
+                margin-left: 2em; 
+                border: 1px solid black;
+            }
+            @media only screen and ( max-width: 64em) {
+                textarea { margin-left: 0; }
+            }
+        </style>
+	</head>
+		<body>
+		<div id="wrapper">
+		<header>
+			<h1>Solid :: Get a POD</h1>
+        </header>
+        <div id="image7"></div>
+		<nav>
+			<ul>
+                <li><a href="final1.html">HOME</a></li> 
+                <li><a href="final2.html">ISSUES</a></li> 
+                <li><a href="final3.html">FORM</a></li> 
+                <li><a href="final4.html">CREDITS</a></li> 
+                <li><a href="final5.html">COURSE</a></li>
+            </ul>
+		</nav>
+			<main>
+                <div id="container">
+                <h3>Get a Solid POD and Identity</h3>
+                <form method="post" action="http://webdevbasics.net/scripts/pacific.php">
+                    <label for="myFName">First Name:</label>
+                    <input type="text" name="myFName" id="myFName" required="required" class="input">
+
+                    <label for="myLName">Last Name:</label>
+                    <input type="text" name="myLName" id="myLName" required="required" class="input">
+
+                    <label for="myEmail">E-mail:</label>
+                    <input type="email" name="myEmail" id="myEmail" size="35" required="required" class="input">
+
+                    <label for="myPhone">Phone Number:</label>
+                    <input type="tel" name="myPhone" id="myPhone" maxlength="12" required="required" class="input">
+
+                    <label for="address">Address:</label>
+                    <input type="text" name="address" id="address" class="input">
+
+                    <label for="city">City:</label>
+                    <input type="text" name="city" id="city" class="input">
+
+                    <select size="1" name="state" id="state">
+                        <option>State</option>
+                        <option value="kansas">KS</option>
+                        <option value="missouri">MO</option>
+                        <option value="iowa">IA</option>
+                        <option value="nebraska">NE</option>
+                    </select>
+                    <br>
+
+                    <label for="myDate">Choose a Date</label>
+                    <input type="date" name="myDate" id="myDate"><br>
+                
+                    <p class="box2">Choose the browsers you use:</p>
+                    <input class="box" type="checkbox" name="Chrome" id="Chrome" value="yes">Google Chrome<br>
+                    <input class="box" type="checkbox" name="Firefox" id="Firefox" value="yes">Firefox<br>
+                    <input class="box" type="checkbox" name="Edge" id="Edge" value="yes">Microsoft Edge<br>
+                    <input class="box" type="checkbox" name="Safari" id="Safari" value="yes">Safari<br><br><br>
+
+                    <p class="box2">Choose your favorite browser:</p>
+                    <input class="box" type="radio" name="fav" id="favCH" value="CH">Google Chrome<br>
+                    <input class="box" type="radio" name="fav" id="favFF" value="FF">Firefox<br>
+                    <input class="box" type="radio" name="fav" id="favME" value="ME">Microsoft Edge<br>
+                    <input class="box" type="radio" name="fav" id="favSA" value="SA">Safari<br><br><br>
+
+                    <label for="myComments">Comments:</label>
+                    <textarea name="myComments" id="myComments" rows="2" cols="30" required="required"></textarea>
+
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </form>
+            </div>
+            <div id="container2">
+                <img src="solid1.png" alt="Inrupt logo" id="image4">
+            </div>
+            </main>
+			<footer>
+                Copyright &copy; 2019 JCCC Web 110 Final<br><a href="mailto:cwill265@stumail.jccc.edu" id="white">cwill265@stumail.jccc.edu</a>
+            </footer>
+            <nav>
+                <ul>
+                    <li><a href="final1.html">HOME</a></li> 
+                    <li><a href="final2.html">ISSUES</a></li> 
+                    <li><a href="final3.html">FORM</a></li> 
+                    <li><a href="final4.html">CREDITS</a></li> 
+                    <li><a href="final5.html">COURSE</a></li>
+                </ul>
+            </nav>
+		</div>
+		</body>
+</html>

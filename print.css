@@ -1,0 +1,22 @@
+/* Cassie Williams 5/13/2019 */
+
+/* print display styles */
+img {display: none; 
+}
+#image2, #image3, #image5, #image6, #image7
+    { display: none; 
+    height: 0;
+}
+header { color: black; 
+    font-size: 16pt;
+    clear: both;
+    height: 0;
+    margin-bottom: 3em;
+}
+main {font-family: "Times New Roman", serif;
+    font-size: 12pt;
+}
+nav { display: none; 
+}
+/* separate style for h1 Home page so text will fit in header area */
+#print { font-size: 14pt; }
